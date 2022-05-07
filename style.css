@@ -1,0 +1,33 @@
+#header{
+    font-size: 23;
+    letter-spacing: 3px;
+}
+
+#headbody{
+    color: magenta;
+    letter-spacing: 1px;
+    font-size: 19.8px;
+}
+
+#i{
+   color: rgb(25, 0, 255);
+   letter-spacing: 2px;
+}
+
+.test_image_and_result{
+    background-color: rgb(189, 179, 179);
+    border-radius: 5px;
+    animation-name: box;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-direction: normal;
+}
+
+@keyframes box{
+    from{box-shadow: rgb(40, 37, 37);}
+    to{box-shadow: rgb(240, 242, 255);}
+}
+
+.id{
+    word-wrap: break-word;
+}
